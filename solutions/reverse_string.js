@@ -1,4 +1,5 @@
 function reverseString(str) {
+  console.log(str);
   let reversed = "";
 
   for (let i = str.length - 1; i > -1; --i) {
@@ -9,33 +10,32 @@ function reverseString(str) {
 }
 
 console.log("Expecting: 'ih'");
-console.log(reverseString('hi'));
+console.log(reverseString("hi"));
 
 console.log("");
 
 console.log("Expecting: 'ybabtac'");
-console.log(reverseString('catbaby'));
+console.log(reverseString("catbaby"));
 
 console.log("");
 
 console.log("Expecting: 'a'");
-console.log(reverseString('a'));
+console.log(reverseString("a"));
 
 console.log("");
 
 console.log("Expecting: '' (empty string)");
-console.log(reverseString(''));
+console.log(reverseString(""));
 
 // Please add your pseudocode to this file
 /**************************************************
  * initialize a variable called reversed with an empty string
- * 
+ *
  * iterate backwards through the input string:
  *    set reversed to reversed + current character
- * 
+ *
  * return reversed
  * ************************************************/
-
 
 // And a written explanation of your solution
 /**************************************************
